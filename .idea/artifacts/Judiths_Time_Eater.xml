@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Judiths_Time_Eater">
+    <output-path>$PROJECT_DIR$/Deployment</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="timeCalculator.Main" />
+        <option name="description" value="A Tool to Track used Time" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="Time Calculator" />
+        <option name="vendor" value="" />
+        <option name="version" value="0.1" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="2018_timeCalculatro.jar">
+        <element id="module-output" name="2018_timeCalculatro" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/Deployment/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
